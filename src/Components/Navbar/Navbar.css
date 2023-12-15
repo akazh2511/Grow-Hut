@@ -1,0 +1,51 @@
+/* CSS for Navbar component */
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  background-color: #ffffff; /* Change as needed */
+  border-bottom: 1px solid #e8e8e8; /* Change as needed */
+}
+
+/* Logo */
+.logo img {
+  width: 79px;
+  height: 39px;
+  top: 26px;
+  left: 46px;
+}
+
+/* Menu items on the right */
+.menu-items {
+  position: absolute;
+  flex-grow: 1;
+  text-align: center;
+  left: 800px;
+  gap: 50px;
+}
+
+/* .menu-items .ant-menu {
+  display: inline-block;
+} */
+
+/* Language dropdown on the right */
+.language-dropdown {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+/* Styling for language dropdown */
+.language-dropdown .ant-btn {
+  background-color: #b5f5df; /* Green color for the button */
+  border-color: #b5f5df; /* Change as needed */
+  /* Text color */
+}
+
+.language-dropdown .ant-btn:hover,
+.language-dropdown .ant-btn:focus {
+  background-color: #009900; /* Change as needed */
+  border-color: #009900; /* Change as needed */
+}
